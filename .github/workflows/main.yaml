@@ -28,7 +28,7 @@ jobs:
         run: |
           npm install
           npm test
-          exit 0
+
         env:
           DBHOST: ${{ secrets.DBHOST }}
           JWT_SECRET: ${{ secrets.JWT_SECRET }}
